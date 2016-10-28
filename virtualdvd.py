@@ -49,7 +49,7 @@ class SystemTrayIcon(QtGui.QSystemTrayIcon):
 
         #mount the image file fname
         cmd = 'fuseiso "' + fname + '" "'+ vpath + '"'
-        proc = subprocess.Popen(str(cmd), shell=True, stdout=subprocess.PIPE)
+        subprocess.Popen(str(cmd), shell=True, stdout=subprocess.PIPE)
 
     def umount(self):
         '''unmounts VirtualDVD'''
