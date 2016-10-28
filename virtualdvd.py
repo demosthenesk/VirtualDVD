@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sys, os
+import sys
 import subprocess
 from PyQt4 import QtGui, QtCore
 
